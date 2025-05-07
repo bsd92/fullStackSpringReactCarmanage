@@ -1,0 +1,32 @@
+# Gestion d'un garage - Java Spring boot, MySQL & Git
+
+## 📖 Description
+Ce projet est une application web de gestion d'un garage développée en **Java Spring MVC** avec **MySQL** comme base de données.
+L’application permet aux utilisateurs de créer, modifier, supprimer et afficher leurs voiture dans un garage.
+
+---
+
+## 🛠️ Technologies utilisées
+- **Java 17+**
+- **Spring Boot 3.x** (Spring Web, Spring Data JPA)
+- **MySQL** (Base de données)
+- **Hibernate** (ORM)
+- **Thymeleaf** (Template Engine)
+- **Git** (Gestion de version)
+
+---
+
+## 🚀 Installation et exécution
+
+### Prérequis
+Avant de commencer, assure-toi d’avoir installé :
+- **JDK 17+** → [Télécharger](https://www.oracle.com/java/technologies/javase-downloads.html)
+- **MySQL Server** → [Télécharger](https://dev.mysql.com/downloads/)
+- **Maven** → [Télécharger](https://maven.apache.org/download.cgi)
+- **Git** → [Télécharger](https://git-scm.com/)
+- **Un IDE** (IntelliJ IDEA, Eclipse, VS Code avec extension Java)
+
+### 2 Cloner le projet
+```bash
+git clone https://github.com/bsd92/GarageSpringV0.git
+

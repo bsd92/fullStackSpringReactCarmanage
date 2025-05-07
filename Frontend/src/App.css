@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root, .app-layout {
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  height: 60px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+.main-content {
+  margin-top: 60px; 
+  margin-bottom: 60px;
+  padding: 20px;
+  overflow-y: auto;
+  height: calc(100vh - 120px); 
+}

@@ -1,0 +1,23 @@
+POST http://localhost:8080/garage/register
+Content-Type: application/json
+
+{
+  "username": "Boubacar5",
+  "password": "Boubacar2025",
+  "role":"MANAGER"
+}
+
+
+###
+POST http://localhost:8080/garage/login
+Content-Type: application/json
+
+{
+"username": "Boubacar5",
+"password": "Boubacar2025",
+"role":"MANAGER"
+}
+###
+GET http://localhost:8080/garage/read
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJCb3ViYWNhcjUiLCJpYXQiOjE3NDEyNTcyOTYsImV4cCI6MTc0MTI1ODU5Nn0.QP1mKqPJVd6A-0N6_hsqcnvX_WOtn_Ojmgq6nh7IN0qd3hs61aensEiniZOfgvJeFq0zHjB1MrwQRwxkKpJM2Q

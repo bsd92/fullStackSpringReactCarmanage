@@ -1,0 +1,7 @@
+
+# spring:
+#  security:
+ #   user:
+   #   name: admin  # Nom d'utilisateur
+   #   password: "admin"  # Mot de passe
+    #  roles: USER,ADMIN  # Rôles attribués à l'utilisateur
